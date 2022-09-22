@@ -1,0 +1,13 @@
+@use 'colors' as *;
+
+.content{
+
+    &__section{
+        &--primaryBackground{
+            background-color: $primaryColor;
+        }
+        &--secondaryBackground{
+            background-color: $secondaryColor;
+        }
+    }
+}
