@@ -5,6 +5,20 @@
   background-color: #f2b632;
 }
 
-nav {
+.header {
   background-color: #f2b632;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+.header__navLink {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */
