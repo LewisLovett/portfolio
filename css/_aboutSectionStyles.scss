@@ -1,0 +1,11 @@
+@use "colors" as *;
+
+.content{
+    &__aboutParagraph{
+        padding: 10px;
+        
+    }
+    &__htmlIcon{
+        color: $tertiaryColor;
+    }
+}

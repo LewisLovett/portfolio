@@ -1,0 +1,10 @@
+@use "colors" as *;
+
+.content{
+    &__skillsList{
+        color: $tertiaryColor;
+    }
+    &__skillIcon{
+        font-size: 5em;;
+    }
+}

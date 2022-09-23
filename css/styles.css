@@ -67,7 +67,21 @@
 }
 .content__jobTitle {
   font-size: 2.5em;
-  color: #ffffff;
+  color: #F5F5F5;
+}
+
+.content__skillsList {
+  color: #F5F5F5;
+}
+.content__skillIcon {
+  font-size: 5em;
+}
+
+.content__aboutParagraph {
+  padding: 10px;
+}
+.content__htmlIcon {
+  color: #F5F5F5;
 }
 
 * {
