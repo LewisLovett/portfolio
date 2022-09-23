@@ -1,15 +1,26 @@
+.content {
+  font-family: "Montserrat", sans-serif;
+}
+.content__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .content__section--primaryBackground {
   background-color: #252839;
+  color: #f2b632;
 }
 .content__section--secondaryBackground {
   background-color: #f2b632;
+  color: #252839;
 }
 
 .header {
   background-color: #f2b632;
+  color: #252839;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-around;
-  position: fixed;
   width: 100%;
 }
 .header__navLink {

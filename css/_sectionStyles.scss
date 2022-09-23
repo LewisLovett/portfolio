@@ -1,13 +1,20 @@
 @use 'colors' as *;
 
-.content{
 
+
+.content{
+    font-family: 'Montserrat', sans-serif;
     &__section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         &--primaryBackground{
             background-color: $primaryColor;
+            color: $secondaryColor;
         }
         &--secondaryBackground{
             background-color: $secondaryColor;
+            color: $primaryColor;
         }
     }
 }
