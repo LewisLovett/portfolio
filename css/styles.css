@@ -34,7 +34,7 @@
 .header__navLink {
   text-decoration: none;
   color: #252839;
-  padding: 30px 20px;
+  padding: 5px;
 }
 .header__navLink:hover {
   background-color: #252839;
@@ -50,7 +50,7 @@
   padding: 10px;
 }
 .content__projectImage {
-  width: 150px;
+  width: 200px;
 }
 
 @media only screen and (min-width: 810px) {
