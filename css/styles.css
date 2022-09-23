@@ -47,6 +47,11 @@
     flex-direction: row;
   }
 }
+.content__profileImage {
+  border: 7px #f2b632 solid;
+  border-radius: 50%;
+}
+
 * {
   padding: 0;
   margin: 0;

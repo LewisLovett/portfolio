@@ -1,0 +1,8 @@
+@use "colors" as *;
+.content{
+    &__profileImage{
+        border: 7px $secondaryColor solid;
+        border-radius: 50%;
+    }
+
+}
