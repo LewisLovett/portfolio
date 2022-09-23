@@ -1,6 +1,23 @@
 
 .content{
+    &__portfolioContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__projectCard{
+        padding: 10px;
+    }
+
     &__projectImage{
-        width: 200px;
+        width: 150px;
+    }
+}
+@media only screen and (min-width:810px) {
+    .content{
+        &__portfolioContainer{
+            flex-direction: row;
+        }
     }
 }

@@ -30,10 +30,23 @@
   padding: 10px 20px;
 }
 
+.content__portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content__projectCard {
+  padding: 10px;
+}
 .content__projectImage {
-  width: 200px;
+  width: 150px;
 }
 
+@media only screen and (min-width: 810px) {
+  .content__portfolioContainer {
+    flex-direction: row;
+  }
+}
 * {
   padding: 0;
   margin: 0;
