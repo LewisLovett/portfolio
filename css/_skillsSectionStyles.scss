@@ -3,8 +3,8 @@
 .content{
     &__skillsList{
         color: $tertiaryColor;
+        font-size: 2.5em;
+        list-style: none;
     }
-    &__skillIcon{
-        font-size: 5em;;
-    }
+    
 }
