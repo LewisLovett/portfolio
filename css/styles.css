@@ -30,6 +30,7 @@
 }
 .header__title {
   padding: 20px;
+  font-size: 2em;
 }
 .header__nav {
   padding: 30px;
@@ -75,8 +76,16 @@
 
 .content__skillsList {
   color: #F5F5F5;
-  font-size: 2.5em;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.content__skill {
+  font-size: 1.3em;
+  padding: 10px;
+}
+.content__skillIcon {
+  font-size: 1.4em;
 }
 
 .content__aboutParagraph {
