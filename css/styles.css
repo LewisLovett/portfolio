@@ -25,9 +25,20 @@
   justify-content: space-around;
   width: 100%;
 }
+.header__title {
+  padding: 20px;
+}
+.header__nav {
+  padding: 30px;
+}
 .header__navLink {
   text-decoration: none;
-  padding: 10px 20px;
+  color: #252839;
+  padding: 30px 20px;
+}
+.header__navLink:hover {
+  background-color: #252839;
+  color: #f2b632;
 }
 
 .content__portfolioContainer {
@@ -47,9 +58,16 @@
     flex-direction: row;
   }
 }
+.content__myName {
+  font-size: 5em;
+}
 .content__profileImage {
   border: 7px #f2b632 solid;
   border-radius: 50%;
+}
+.content__jobTitle {
+  font-size: 2.5em;
+  color: #ffffff;
 }
 
 * {

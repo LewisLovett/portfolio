@@ -1,17 +1,27 @@
 @use "colors" as *;
 
 .header {
-    background-color: $secondaryColor;
-    color: $primaryColor;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    
-    width: 100%;
-    
-    
-    &__navLink{
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  &__title{
+    padding: 20px;
+  }
+ &__nav{
+    padding: 30px;
+ }
+  &__navLink {
     text-decoration: none;
-    padding: 10px 20px;
-    }
+    color: $primaryColor;
+    padding: 30px 20px;
+   
+  }
+  &__navLink:hover{
+    background-color: $primaryColor;
+    color: $secondaryColor;
+  }
 }
