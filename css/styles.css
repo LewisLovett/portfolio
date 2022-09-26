@@ -117,9 +117,17 @@
   padding: 10px;
 }
 
-.section__emailIcon {
+.section__iconContaier {
+  display: flex;
+}
+.section__contactIcon {
   font-size: 2em;
+  padding: 10px;
   color: #252839;
+}
+.section__contactIcon:hover {
+  color: #f2b632;
+  background-color: #252839;
 }
 
 * {

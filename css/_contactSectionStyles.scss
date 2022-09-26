@@ -1,8 +1,17 @@
 @use "colors" as *;
 
 .section{
-    &__emailIcon{
+    &__iconContaier{
+        display: flex;
+    }
+    
+    &__contactIcon{
         font-size: 2em;
+        padding: 10px;
         color: $primaryColor;
+    }
+    &__contactIcon:hover{
+        color: $secondaryColor;
+        background-color: $primaryColor;
     }
 }
