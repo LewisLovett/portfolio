@@ -88,11 +88,24 @@
   font-size: 1.4em;
 }
 
+@media only screen and (min-width: 810px) {
+  .content__skillsList {
+    flex-direction: row;
+  }
+  .content__skill {
+    padding: 20px;
+  }
+}
 .content__aboutParagraph {
   padding: 10px;
+  color: #F5F5F5;
 }
 .content__htmlIcon {
   color: #F5F5F5;
+}
+
+.content__experienceHeader, .content__experienceStartDate {
+  padding: 5px;
 }
 
 * {
