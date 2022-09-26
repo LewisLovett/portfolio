@@ -113,6 +113,9 @@
   color: #F5F5F5;
 }
 
+.section__experienceContainer {
+  width: 100%;
+}
 .section__experienceHeader, .section__experienceStartDate {
   padding: 5px;
 }

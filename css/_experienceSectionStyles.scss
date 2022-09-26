@@ -1,7 +1,9 @@
 @use "colors" as *;
 
 .section{
-    
+    &__experienceContainer{
+        width: 100%;
+    }
     &__experienceHeader,&__experienceStartDate{
         padding: 5px;
     }
