@@ -34,6 +34,7 @@
 }
 .header__nav {
   padding: 30px;
+  font-size: 1.5em;
 }
 .header__navLink {
   text-decoration: none;
@@ -108,6 +109,10 @@
 
 .content__experienceHeader, .content__experienceStartDate {
   padding: 5px;
+}
+
+.content__emailIcon {
+  font-size: 2em;
 }
 
 * {
