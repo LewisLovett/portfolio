@@ -1,22 +1,19 @@
-.content {
-  font-family: "Montserrat", sans-serif;
-}
-.content__section {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 10px 40px;
 }
-.content__section--primaryBackground {
+.section--primaryBackground {
   background-color: #252839;
   color: #f2b632;
 }
-.content__section--secondaryBackground {
+.section--secondaryBackground {
   background-color: #f2b632;
   color: #252839;
 }
-.content__sectionHeader {
+.section__sectionHeader {
   font-size: 2em;
 }
 
@@ -52,72 +49,72 @@
     flex-direction: row;
   }
 }
-.content__portfolioContainer {
+.section__portfolioContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.content__projectCard {
+.section__projectCard {
   padding: 10px;
 }
-.content__projectImage {
+.section__projectImage {
   width: 250px;
   height: 178px;
   margin: 5px;
 }
 
 @media only screen and (min-width: 810px) {
-  .content__portfolioContainer {
+  .section__portfolioContainer {
     flex-direction: row;
   }
 }
-.content__myName {
+.section__myName {
   font-size: 5em;
 }
-.content__profileImage {
+.section__profileImage {
   border: 7px #f2b632 solid;
   border-radius: 50%;
 }
-.content__jobTitle {
+.section__jobTitle {
   font-size: 2.5em;
   color: #F5F5F5;
 }
 
-.content__skillsList {
+.section__skillsList {
   color: #F5F5F5;
   list-style: none;
   display: flex;
   flex-direction: column;
 }
-.content__skill {
+.section__skill {
   font-size: 1.3em;
   padding: 10px;
 }
-.content__skillIcon {
+.section__skillIcon {
   font-size: 1.4em;
 }
 
 @media only screen and (min-width: 810px) {
-  .content__skillsList {
+  .section__skillsList {
     flex-direction: row;
   }
-  .content__skill {
+  .section__skill {
     padding: 20px;
   }
 }
-.content__aboutParagraph {
+.section__aboutParagraph {
   padding: 10px;
   color: #F5F5F5;
 }
-.content__htmlIcon {
+.section__htmlIcon {
   color: #F5F5F5;
 }
 
-.content__experienceHeader, .content__experienceStartDate {
+.section__experienceHeader, .section__experienceStartDate {
   padding: 5px;
 }
 
-.content__emailIcon {
+.section__emailIcon {
   font-size: 2em;
 }
 
@@ -125,4 +122,5 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=styles.css.map */

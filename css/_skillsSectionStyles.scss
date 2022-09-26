@@ -1,6 +1,6 @@
 @use "colors" as *;
 
-.content{
+.section{
     &__skillsList{
         color: $tertiaryColor;
         list-style: none;
@@ -18,7 +18,7 @@
 }
 
 @media only screen and (min-width:810px) {
-    .content{
+    .section{
         &__skillsList{
             flex-direction: row;
         }

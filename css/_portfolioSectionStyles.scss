@@ -1,5 +1,5 @@
 
-.content{
+.section{
     &__portfolioContainer{
         display: flex;
         flex-direction: column;
@@ -17,7 +17,7 @@
     }
 }
 @media only screen and (min-width:810px) {
-    .content{
+    .section{
         &__portfolioContainer{
             flex-direction: row;
         }
