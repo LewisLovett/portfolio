@@ -1,7 +1,12 @@
 @use "colors" as *;
 
 .section{
+    
     &__experienceHeader,&__experienceStartDate{
         padding: 5px;
     }
+    &__experienceCard{
+        padding: 10px;;
+    }
+    
 }

@@ -113,6 +113,9 @@
 .section__experienceHeader, .section__experienceStartDate {
   padding: 5px;
 }
+.section__experienceCard {
+  padding: 10px;
+}
 
 .section__emailIcon {
   font-size: 2em;
