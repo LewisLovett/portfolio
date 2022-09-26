@@ -16,6 +16,9 @@
 .section__sectionHeader {
   font-size: 2em;
 }
+.section__divider {
+  border-top: 3px solid #252839;
+}
 
 .header {
   background-color: #f2b632;

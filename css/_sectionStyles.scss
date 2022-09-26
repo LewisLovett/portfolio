@@ -20,4 +20,8 @@
   &__sectionHeader {
     font-size: 2em;
   }
+
+  &__divider{
+    border-top: 3px solid $primaryColor;
+  }
 }
