@@ -70,7 +70,7 @@ const ProjectsSection = (props) => {
             <img class="section__projectImage" alt="Project 2 image" src={require("../../assets/images/word-guesser.png" )}/>
           </article>
           <article class="section__projectCard" onClick={(e) => showProjectModal("project3", e)}>
-            <h2>Word Guesser</h2>
+            <h2>Morse Code</h2>
             <img class="section__projectImage" alt="Project 3 image" src={require("../../assets/images/morse-code.png" )}/>
           </article>
         </div>
