@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6d6bf4c5.css",
+    "main.js": "/portfolio/static/js/main.4f10823d.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
+    "static/media/morse-code.png": "/portfolio/static/media/morse-code.09b52ce8ccef60923e75.png",
+    "static/media/calculator2.png": "/portfolio/static/media/calculator2.b71515eeb93253ce20e5.png",
+    "static/media/word-guesser.png": "/portfolio/static/media/word-guesser.9e8af63219cd80dbdd39.png",
+    "static/media/calculator3.png": "/portfolio/static/media/calculator3.6afebd2990ecc9086739.png",
+    "static/media/calculator1.png": "/portfolio/static/media/calculator1.cffb86f9b4ad3cd38f61.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.56843a13d376a684d985.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.6d6bf4c5.css.map": "/portfolio/static/css/main.6d6bf4c5.css.map",
+    "main.4f10823d.js.map": "/portfolio/static/js/main.4f10823d.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d6bf4c5.css",
+    "static/js/main.4f10823d.js"
+  ]
+}
