@@ -1,0 +1,16 @@
+@use "../../styles/Variables.scss" as *;
+
+.section{
+    &__myName{
+        font-size: 5em;
+    }
+    &__profileImage{
+        border: 7px $secondaryColor solid;
+        border-radius: 50%;
+    }
+    &__jobTitle{
+        font-size: 2.5em;
+        color: $tertiaryColor;
+    }
+
+}

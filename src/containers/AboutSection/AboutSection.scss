@@ -1,0 +1,12 @@
+@use "../../styles/Variables.scss" as *;
+
+.section{
+    &__aboutParagraph{
+        padding: 10px;
+        color: $tertiaryColor;
+        
+    }
+    &__htmlIcon{
+        color: $tertiaryColor;
+    }
+}

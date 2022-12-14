@@ -1,0 +1,30 @@
+@use "../../styles/Variables.scss" as *;
+
+.section{
+    &__skillsList{
+        color: $tertiaryColor;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    &__skill{
+        font-size: 1.3em;
+        padding: 10px;
+    }
+    &__skillIcon{
+        font-size: 1.4em;
+    }
+    
+}
+
+@media only screen and (min-width:810px) {
+    .section{
+        &__skillsList{
+            flex-direction: row;
+        }
+
+        &__skill{
+            padding: 20px;
+        }
+    }
+}

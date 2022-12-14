@@ -1,0 +1,28 @@
+@use "../../styles/Variables.scss" as *;
+
+.section{
+    &__portfolioContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__projectCard{
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    &__projectImage{
+        width: 17em;
+        margin: 5px;
+        border: 0.2em solid $primaryColor;
+        border-radius: 0.1em;
+    }
+}
+@media only screen and (min-width:810px) {
+    .section{
+        &__portfolioContainer{
+            flex-direction: row;
+        }
+    }
+}

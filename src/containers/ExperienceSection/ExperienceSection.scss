@@ -1,0 +1,14 @@
+@use "../../styles/Variables.scss" as *;
+
+.section{
+    &__experienceContainer{
+        width: 100%;
+    }
+    &__experienceHeader,&__experienceStartDate{
+        padding: 5px;
+    }
+    &__experienceCard{
+        padding: 10px;;
+    }
+    
+}
