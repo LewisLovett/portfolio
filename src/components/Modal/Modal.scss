@@ -12,12 +12,13 @@
     background-color: rgba(0,0,0,0.8);
 
     &__content{
+        overflow-y: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: $primaryColor;
         color: $secondaryColor;
-        margin: 15% auto;
+        margin: 5% auto;
         padding: 20px;
         border: 1px solid #888;
         width: 80%;

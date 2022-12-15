@@ -2,7 +2,7 @@ import Carousel from "../Carousel/Carousel";
 import "./Modal.scss";
 
 const Modal = ({setShown, title,images,skills,description, projectLink, repoLink}) => {
-    // const imgURL = require(`../../assets/images/${image}`);
+    // const imgURL = require(`../../assets/images/${image}`);      
 
     return(
         <div className="modal">
@@ -12,7 +12,7 @@ const Modal = ({setShown, title,images,skills,description, projectLink, repoLink
                 <Carousel images={images} />
                 {/* <img className="modal__image" alt={`${title} image`} src={imgURL}/> */}
                 {projectLink!=="" && <a className="modal__link"  href={projectLink}>Click here for project page</a>}
-                <a className="modal__link" href={repoLink}>Click here for github page</a>
+                <a autof className="modal__link" href={repoLink}>Click here for github page</a>
                 <p>Skills Used:</p>
                 <ul>
                 {skills.map(skill => (<li>{skill}</li>))}

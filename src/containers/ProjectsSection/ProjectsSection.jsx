@@ -1,7 +1,7 @@
 import "../../styles/Section.scss"
 import "./ProjectsSection.scss";
 import Modal from "../../components/Modal/Modal";
-import { useState } from "react";
+import {useState, useEffect} from "react";
 
 const ProjectsSection = (props) => {
   const [isModalShown,setIsModalShown] = useState(false);
@@ -14,6 +14,13 @@ const ProjectsSection = (props) => {
     projectLink:"",
     repoLink:""
   });
+
+  // useEffect(() => {
+  //   if(isModalShown){
+  //     console.log(document.querySelector('#modal'));
+  //     document.querySelector('#modal').focus();
+  //   }
+  // }, [isModalShown]);
 
   const showProjectModal = (id, e) => {
     e.preventDefault();
@@ -31,7 +38,7 @@ const ProjectsSection = (props) => {
         case "project2":
           setProjectDetails({
             title: "Word Guesser",
-            images: ["word-guesser.png","word-guesser.png","word-guesser.png"],
+            images: ["word-guesser1.png","word-guesser2.png","word-guesser3.png"],
             skills:["HTML","SCSS","JavaScript"],
             description:"This is my word guesser project. The languages used are HTML, SCSS and JavaScript. It also uses a random word and definition api. When the start button is pressed the countdown time starts and a scrambled word and definition in outputted. The user must guess what the original word is before the computer guesses the word. The game ends when the time runs out or either the user or computer gets a score of 10.",
             projectLink:"https://lewislovett.github.io/word_guesser/",
@@ -41,7 +48,7 @@ const ProjectsSection = (props) => {
           case "project3":
             setProjectDetails({
               title: "Morser Code",
-              images: ["morse-code.png","morse-code.png","morse-code.png"],
+              images: ["morse-code1.png","morse-code2.png","morse-code3.png"],
               skills:["HTML","SCSS","JavaScript"],
               description:"This is my morse code project.",
               projectLink:"https://lewislovett.github.io/word_guesser/",
@@ -49,16 +56,20 @@ const ProjectsSection = (props) => {
             })
             break;
     }
-    setIsModalShown(true)
+    setIsModalShown(true);
+    document.body.style.overflow = 'hidden';
   }
 
     const closeModal = () =>{
       setIsModalShown(false);
+      document.body.style.overflow = 'unset';
     }
   
     return(
         <section id="portfolio" class="section section--secondaryBackground">
-        {isModalShown && <Modal setShown={closeModal} title={projectDetails.title} images={projectDetails.images} skills={projectDetails.skills} description ={projectDetails.description} projectLink={projectDetails.projectLink} repoLink={projectDetails.repoLink}/>} 
+          
+            {isModalShown && <Modal setShown={closeModal} title={projectDetails.title} images={projectDetails.images} skills={projectDetails.skills} description ={projectDetails.description} projectLink={projectDetails.projectLink} repoLink={projectDetails.repoLink}/>} 
+        
         <h1 class="section__sectionHeader">Portfolio</h1>
         <div class="section__portfolioContainer">
           <article class="section__projectCard" onClick={(e) => showProjectModal("project1", e)}>
@@ -67,11 +78,11 @@ const ProjectsSection = (props) => {
           </article>
           <article class="section__projectCard" onClick={(e) => showProjectModal("project2", e)}>
             <h2>Word Guesser</h2>
-            <img class="section__projectImage" alt="Project 2 image" src={require("../../assets/images/word-guesser.png" )}/>
+            <img class="section__projectImage" alt="Project 2 image" src={require("../../assets/images/word-guesser1.png" )}/>
           </article>
           <article class="section__projectCard" onClick={(e) => showProjectModal("project3", e)}>
             <h2>Morse Code</h2>
-            <img class="section__projectImage" alt="Project 3 image" src={require("../../assets/images/morse-code.png" )}/>
+            <img class="section__projectImage" alt="Project 3 image" src={require("../../assets/images/morse-code1.png" )}/>
           </article>
         </div>
       </section>
