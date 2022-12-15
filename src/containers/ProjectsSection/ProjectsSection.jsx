@@ -55,6 +55,16 @@ const ProjectsSection = (props) => {
               repoLink:"https://github.com/LewisLovett/word_guesser"
             })
             break;
+            case "project4":
+              setProjectDetails({
+                title: "Currency Converter Group Project",
+                images: ["currency-converter1.png","currency-converter2.png","currency-converter3.png","currency-converter4.png","currency-converter5.png"],
+                skills:["HTML","SCSS","JavaScript","React", "Trello"],
+                description:"This is my Currency Converter group project that I took part in during my software engineer training at _nology. The goal of the project was to create a currency converter designed to match mock ups and to fulfil a list of requirements that were collated during meetings with a mock client. The project lasted two weeks and we used an Agile project methodology. We had two-day long sprints during which we were split into alternating pairs to complete tasks. For one of the sprints, I was assigned to be one of two project managers. The responsibility of the PMs was to create and assign tasks for the rest of the pairs via tickets created with Trello. At the end of the two weeks, we were able to create a project that visually matched the mock-ups and satisfied the client’s requirements. .",
+                projectLink:"",
+                repoLink:""
+              })
+              break;
     }
     setIsModalShown(true);
     document.body.style.overflow = 'hidden';
@@ -83,6 +93,10 @@ const ProjectsSection = (props) => {
           <article class="section__projectCard" onClick={(e) => showProjectModal("project3", e)}>
             <h2>Morse Code</h2>
             <img class="section__projectImage" alt="Project 3 image" src={require("../../assets/images/morse-code1.png" )}/>
+          </article>
+          <article class="section__projectCard" onClick={(e) => showProjectModal("project4", e)}>
+            <h2>Morse Code</h2>
+            <img class="section__projectImage" alt="Project 4 image" src={require("../../assets/images/currency-converter1.png" )}/>
           </article>
         </div>
       </section>
