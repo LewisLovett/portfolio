@@ -65,6 +65,16 @@ const ProjectsSection = (props) => {
                 repoLink:""
               })
               break;
+              case "project5":
+                setProjectDetails({
+                  title: "Hangman",
+                  images: ["hangman1.png","hangman2.png","hangman3.png","hangman4.png"],
+                  skills:["Java"],
+                  description:"Hangman game build with JAVA. The user is expected to enter a letter and if the word contains that letter. The user has 6 lives and if the user enter 6 incorrect letters the game is over.",
+                  projectLink:"",
+                  repoLink:"https://github.com/LewisLovett/Hangman"
+                })
+                break;
     }
     setIsModalShown(true);
     document.body.style.overflow = 'hidden';
@@ -97,6 +107,10 @@ const ProjectsSection = (props) => {
           <article class="section__projectCard" onClick={(e) => showProjectModal("project4", e)}>
             <h2>Morse Code</h2>
             <img class="section__projectImage" alt="Project 4 image" src={require("../../assets/images/currency-converter1.png" )}/>
+          </article>
+          <article class="section__projectCard" onClick={(e) => showProjectModal("project5", e)}>
+            <h2>Hangman</h2>
+            <img class="section__projectImage" alt="Project 5 image" src={require("../../assets/images/hangman1.png" )}/>
           </article>
         </div>
       </section>
