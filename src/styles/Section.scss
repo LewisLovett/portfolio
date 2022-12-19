@@ -19,9 +19,14 @@
 
   &__sectionHeader {
     font-size: 2em;
+
   }
 
   &__divider{
     border-top: 3px solid $primaryColor;
+    &--larger{
+      border-top: 5px solid $primaryColor;
+      margin: 1em;
+    }
   }
 }

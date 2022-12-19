@@ -2,8 +2,9 @@
 
 .section{
     &__experienceContainer{
-        width: 100%;
+        width: 80%;
     }
+
     &__experienceHeader,&__experienceStartDate{
         padding: 5px;
     }
@@ -12,3 +13,4 @@
     }
     
 }
+
