@@ -5,7 +5,7 @@ import "./ContactSection.scss";
 const ContactSection = (props) => {
     return(
         <footer>
-        <section id="contact" class="section section--secondaryBackground">
+        <section id="contact" class="section section--primaryBackground">
           <h1 class="section__sectionHeader">Contact</h1>
           <div class="section__iconContainer">
             <a href="mailto:llovett7575@gmail.com"><i class="fa-solid fa-envelope section__contactIcon"></i></a>

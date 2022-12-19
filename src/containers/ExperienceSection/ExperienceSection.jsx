@@ -6,7 +6,6 @@ const ExperienceSection = (props) => {
     return(
         <section id="experience" class="section section--secondaryBackground">
           <div class="section__experienceContainer">
-        <div class="section__experienceGroup">
         <h1 class="section__sectionHeader">Experience</h1>
           <div class="section__experienceCard">
             <h2 class="section__experienceHeader">Nology</h2>
@@ -75,36 +74,8 @@ const ExperienceSection = (props) => {
 
         </div>
        
-        <div class="section__experienceGroup">
-        <hr class="section__divider--larger"/>
-        <h1 class="section__sectionHeader">Qualifications</h1>
-
-        <div class="section__experienceCard">
-            <h2 class="section__experienceHeader">Nology</h2>
-            <p class="section__experienceStartDate">Secpember 2022 – Current</p>
-          </div>
-
-        <hr class="section__divider"/>
-
-        <div class="section__experienceCard">
-            <h2 class="section__experienceHeader">University of Hertfordshire</h2>
-            <h3>BSc (Hons) Computer Science (Software Engineering) Direct Entry Year 3</h3>
-            <p class="section__experienceStartDate">2015 – 2016</p>
-            <p>Award - First Class</p>
-        </div>
-
-        <hr class="section__divider"/>
-        
-        <div class="section__experienceCard">
-            <h2 class="section__experienceHeader">University of Hertfordshire/North Herts College </h2>
-            <h3>Foundation Degree in Computing Technologies (Software Development)</h3>
-            <p class="section__experienceStartDate">2013 – 2015</p>
-            <p>Award - Commendation </p>
-        </div>
-        </div>
-    
        
-        </div>
+ 
       </section>
     )
 }

@@ -8,10 +8,10 @@
     &__contactIcon{
         font-size: 2em;
         padding: 10px;
-        color: $primaryColor;
+        color: $secondaryColor;
     }
     &__contactIcon:hover{
-        color: $secondaryColor;
-        background-color: $primaryColor;
+        color: $primaryColor;
+        background-color: $secondaryColor;
     }
 }

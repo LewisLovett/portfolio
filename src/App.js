@@ -6,6 +6,7 @@ import SkillsSection from './containers/SkillsSection/SkillsSection';
 import ExperienceSection from './containers/ExperienceSection/ExperienceSection';
 import AboutSection from './containers/AboutSection/AboutSection';
 import ContactSection from './containers/ContactSection/ContactSection';
+import QualificationsSection from './containers/QualificationsSection/QualificationsSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ProjectsSection/>
       <SkillsSection/>
       <ExperienceSection/>
+      <QualificationsSection />
       <AboutSection/>
       <ContactSection/>
     </main>

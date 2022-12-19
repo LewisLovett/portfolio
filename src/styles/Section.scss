@@ -24,9 +24,9 @@
 
   &__divider{
     border-top: 3px solid $primaryColor;
-    &--larger{
-      border-top: 5px solid $primaryColor;
-      margin: 1em;
+    &--altColor{
+      border-top: 3px solid $secondaryColor;
+      
     }
   }
 }

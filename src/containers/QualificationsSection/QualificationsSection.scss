@@ -1,0 +1,16 @@
+@use "../../styles/Variables.scss" as *;
+
+.section{
+    &__qualificationContainer{
+        width: 80%;
+    }
+
+    &__qualificationHeader,&__qualificationStartDate{
+        padding: 5px;
+    }
+    &__qualificationCard{
+        padding: 10px;;
+    }
+    
+}
+
