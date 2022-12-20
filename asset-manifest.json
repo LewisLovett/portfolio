@@ -1,21 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6d6bf4c5.css",
-    "main.js": "/portfolio/static/js/main.4f10823d.js",
+    "main.css": "/portfolio/static/css/main.38972ca8.css",
+    "main.js": "/portfolio/static/js/main.5f0e1470.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
-    "static/media/morse-code.png": "/portfolio/static/media/morse-code.09b52ce8ccef60923e75.png",
+    "static/media/morse-code3.png": "/portfolio/static/media/morse-code3.e0c29474c59a21a020c9.png",
+    "static/media/morse-code2.png": "/portfolio/static/media/morse-code2.51c89a1a967a02de3c62.png",
+    "static/media/morse-code1.png": "/portfolio/static/media/morse-code1.09b52ce8ccef60923e75.png",
+    "static/media/ds-database1.png": "/portfolio/static/media/ds-database1.5ee5ed0a54f54b6cde90.png",
+    "static/media/ds-database2.png": "/portfolio/static/media/ds-database2.3c5d01f1a89a14664636.png",
+    "static/media/currency-converter5.png": "/portfolio/static/media/currency-converter5.4a718d7d692ae4f47551.png",
+    "static/media/currency-converter3.png": "/portfolio/static/media/currency-converter3.3adbae6a6e0313f5842d.png",
+    "static/media/currency-converter1.png": "/portfolio/static/media/currency-converter1.bf98a862d4c7a15f1f43.png",
+    "static/media/currency-converter2.png": "/portfolio/static/media/currency-converter2.323afde10aec5e74d88e.png",
+    "static/media/currency-converter4.png": "/portfolio/static/media/currency-converter4.9cb2fbb9f9617d4cf732.png",
     "static/media/calculator2.png": "/portfolio/static/media/calculator2.b71515eeb93253ce20e5.png",
-    "static/media/word-guesser.png": "/portfolio/static/media/word-guesser.9e8af63219cd80dbdd39.png",
+    "static/media/word-guesser2.png": "/portfolio/static/media/word-guesser2.24da422b89ea596181dd.png",
+    "static/media/word-guesser1.png": "/portfolio/static/media/word-guesser1.9e8af63219cd80dbdd39.png",
+    "static/media/word-guesser3.png": "/portfolio/static/media/word-guesser3.d470ff65faa84b8f3b4c.png",
     "static/media/calculator3.png": "/portfolio/static/media/calculator3.6afebd2990ecc9086739.png",
     "static/media/calculator1.png": "/portfolio/static/media/calculator1.cffb86f9b4ad3cd38f61.png",
+    "static/media/ds-database3.png": "/portfolio/static/media/ds-database3.0a8e620f65625c34c12b.png",
+    "static/media/ds-database4.png": "/portfolio/static/media/ds-database4.d2c9a4d1be8b4689fc33.png",
+    "static/media/snap6.png": "/portfolio/static/media/snap6.b754837af9ba2c4a34d4.png",
+    "static/media/snap3.png": "/portfolio/static/media/snap3.ee61bc5f1a77321b143b.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.56843a13d376a684d985.jpg",
     "index.html": "/portfolio/index.html",
-    "main.6d6bf4c5.css.map": "/portfolio/static/css/main.6d6bf4c5.css.map",
-    "main.4f10823d.js.map": "/portfolio/static/js/main.4f10823d.js.map",
+    "main.38972ca8.css.map": "/portfolio/static/css/main.38972ca8.css.map",
+    "main.5f0e1470.js.map": "/portfolio/static/js/main.5f0e1470.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6bf4c5.css",
-    "static/js/main.4f10823d.js"
+    "static/css/main.38972ca8.css",
+    "static/js/main.5f0e1470.js"
   ]
 }
