@@ -10,7 +10,7 @@ const QualificationsSection= (props) => {
 
         <div class="section__qualificationCard">
             <h2 class="section__qualificationHeader">Nology</h2>
-            <p class="section__qualificationStartDate">Secpember 2022 – Current</p>
+            <p class="section__qualificationStartDate">September 2022 – Current</p>
           </div>
 
         <hr class="section__divider--altColor"/>
